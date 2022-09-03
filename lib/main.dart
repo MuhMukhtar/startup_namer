@@ -9,17 +9,16 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  @override
+    @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Welcome to Flutter',
+      title: 'Startup Name Generator',
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Welcome to Flutter'),
+          title: const Text('Startup Name Generator'),
         ),
-        body: const Center(                     // Add the const
-          //child: Text(wordPair.asPascalCase), // REPLACE with... 
-          child: RandomWords(),                 // ...this line
+        body: const Center(
+          child: RandomWords(),
         ),
       ),
     );
