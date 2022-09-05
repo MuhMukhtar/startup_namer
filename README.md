@@ -1,6 +1,20 @@
 # startup_namer
 
-A new Flutter project.
+## Create the starter Flutter app
+Membuat project flutter untuk pertama kali dan menampilkan hello world
+![Screenshot](img/Screenshot%20(90).png)
+
+## Use an external package
+Menggunakan package `english_words` untuk menampilkan kalimat secara acak dalam bahasa Inggris
+![Screenshot](img/Screenshot%20(91).png)
+
+## Add a stateful widget
+Menggunakan stateful widget dan menggunakan widget `RandomWords` untuk menampilkan kalimat secara acak dalam bahasa Inggris
+![Screenshot](img/Screenshot%20(92).png)
+
+## Create an infinite scrolling ListView
+Membuat list view untuk menampilkan kalimat secara acak tadi dalam bentuk infinite ListView
+![Screenshot](img/Screenshot%20(93).png)
 
 ## Getting Started
 
